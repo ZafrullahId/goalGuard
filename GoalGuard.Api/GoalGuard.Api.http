@@ -1,0 +1,6 @@
+@GoalGuard.Api_HostAddress = http://localhost:5277
+
+GET {{GoalGuard.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
