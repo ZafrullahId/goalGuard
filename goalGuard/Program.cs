@@ -43,7 +43,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactDev", policy =>
     {
-        policy.WithOrigins("http://localhost:3000", "http://localhost:5173") // common react dev server ports
+        policy.WithOrigins("http://localhost:3000", "http://localhost:5173", "https://goal-guard-jade.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
